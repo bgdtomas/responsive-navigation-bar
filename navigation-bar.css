@@ -25,7 +25,6 @@ body {
 }
 
 .topnav a.active {
-  background-color: #4caf50;
   color: white;
 }
 
@@ -46,9 +45,11 @@ body {
 @media (max-width: 600px) {
   .topnav {
     display: block;
+    background-color: #4caf50;
   }
   .topnav.responsive {
     position: relative;
+    background-color: #4caf50;
   }
   .topnav.responsive a.icon {
     position: absolute;
@@ -83,15 +84,17 @@ body {
     padding: 14px 14px 0px 14px;
   }
 
+  @media (min-height:700px){
+    ul:first-child{
+      margin-top: 100px;
+      padding:0%;
+    }
+    ul{
+      margin-top: 20px;
+      padding:0%;
+    }
+  }
+
 }
 
-@media (min-height:700px){
-  ul:first-child{
-    margin-top: 100px;
-    padding:0%;
-  }
-  ul{
-    margin-top: 20px;
-    padding:0%;
-  }
-}
+
