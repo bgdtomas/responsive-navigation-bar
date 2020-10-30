@@ -4,21 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Nav Bar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="navigation-bar.css"/>
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="navigation-bar.css" />
   </head>
+
   <body>
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news"><ul>Gallery</ul></a>
-      <a href="#contact"><ul>Contact</ul></a>
-      <a href="#about"><ul>About</ul></a>
-      <a href="#about"><ul>FAQ</ul></a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+    <nav class="topnav" id="myTopnav">
+      <div class="topBar">
+        <a href="#home" class="active logo aligner">
+          <img src="Resources/LOGO.png" />
+        </a>
+        <a href="javascript:void(0);" class="icon text aligner" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <a href="#home" class="text">
+        <ul>
+          Home
+        </ul>
       </a>
-    </div>
+      <a href="#news" class="text">
+        <ul>
+          Gallery
+        </ul>
+      </a>
+      <a href="#contact" class="text">
+        <ul>
+          Contact
+        </ul>
+      </a>
+      <a href="#about" class="text">
+        <ul>
+          About
+        </ul>
+      </a>
+      <a href="#about" class="text">
+        <ul>
+          FAQ
+        </ul>
+      </a>
+    </nav>
+
+    <section id="MyContent" class="text">
+      <h1>Your section goes here.</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nisl
+        quis nisl ullamcorper viverra eu sed nibh. Interdum et malesuada fames
+        ac ante ipsum primis in faucibus.
+      </p>
+    </section>
+
+    <article id="MyArticle" class="text">
+      <h1>Your article goes here.</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a sagittis
+        lorem. Maecenas eu ligula nisi. Aliquam varius varius mi in hendrerit.
+        Duis consectetur pulvinar tortor id molestie. Phasellus ante magna,
+        volutpat non purus ac, sollicitudin dictum dui. Vestibulum iaculis quis
+        metus et gravida. Aliquam tincidunt tellus ex. Vestibulum egestas purus
+        at lorem ultricies ultrices. Fusce porta et tellus nec accumsan. In
+        consequat enim dolor, accumsan gravida magna lobortis et. Nullam vel est
+        semper metus volutpat varius vel quis urna. Aliquam id lorem finibus,
+        scelerisque ante vel, tincidunt arcu. Ut ullamcorper nunc eget diam
+        auctor, non pulvinar enim euismod. Donec sed mauris mi. Curabitur
+        viverra, purus vel porttitor commodo, mi dui porttitor massa, eget
+        rhoncus nunc orci in sapien. In efficitur ut tellus nec aliquam. Nulla
+        faucibus aliquet finibus. Nulla vel convallis turpis. Nulla quis ex
+        sagittis, facilisis nulla sed, lobortis odio. Duis tincidunt a augue
+        eget pretium. Sed maximus malesuada tortor. Suspendisse ac lacus sed est
+        tincidunt mattis ac sit amet dui. Sed luctus felis eget eros mollis, sit
+        amet tincidunt ligula auctor. Curabitur imperdiet enim eget erat
+        molestie, et vehicula nisl sodales. Morbi finibus placerat placerat.
+        Praesent ac eros sagittis nunc ultrices tempor ac in ipsum. Donec vel
+        nisl pharetra, bibendum metus sed, finibus lectus. Quisque euismod
+        libero ut felis fermentum, sit amet aliquet lorem consequat. Integer
+        volutpat feugiat magna et semper. Donec ut augue porttitor, lobortis
+        tortor eget, volutpat massa. Nulla porttitor porttitor rhoncus. Aliquam
+        scelerisque pharetra nunc, ac commodo justo molestie ut. Maecenas ex
+        velit, tempor a tincidunt ac, egestas sit amet sem. Pellentesque
+        condimentum lorem eget hendrerit vehicula. In elit ex, pulvinar ut
+        lobortis sed, vestibulum eu ipsum. Maecenas tempus, erat sit amet
+        elementum dictum, libero metus condimentum dui, vel efficitur quam risus
+        ut arcu. Cras semper ullamcorper sem, eu cursus risus fringilla vitae.
+        Quisque congue ornare erat eget ultricies. Nulla vehicula eleifend nisi
+        quis sodales. Integer eget libero eros. Quisque lobortis, sem ac euismod
+        volutpat, tortor tortor bibendum velit, non cursus est erat a nibh.
+        Mauris sed egestas purus, suscipit viverra leo. Sed mauris urna,
+        dignissim eu purus quis, luctus ullamcorper ligula. Phasellus a elit
+        auctor, commodo lectus quis, condimentum ipsum. Curabitur nisl urna,
+        congue eu iaculis vel, rutrum luctus dui. Proin facilisis, magna vitae
+        congue tincidunt, sem nisl consectetur nibh, venenatis dignissim velit
+        neque et risus. Phasellus cursus neque sit amet sapien volutpat feugiat.
+        Sed ligula turpis, consequat eget augue sit amet, accumsan egestas
+        nulla. Morbi tempus enim vitae sapien scelerisque ultrices. Donec
+        imperdiet lacinia tellus, ut auctor nisl luctus sit amet. Donec placerat
+        ligula sed rutrum faucibus. Praesent ullamcorper turpis sed ipsum
+        sodales tempus. Ut laoreet, quam ac commodo hendrerit, mi odio imperdiet
+        tellus, ac malesuada ante justo sed enim. Vivamus pretium bibendum lacus
+        ut commodo. Donec mattis sodales tellus eu efficitur. Nullam lectus
+        lorem, auctor ut nisl nec, venenatis dapibus sapien.
+      </p>
+    </article>
 
     <script src="navigation-bar.js"></script>
   </body>
