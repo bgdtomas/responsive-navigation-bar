@@ -140,14 +140,5 @@ section {
     padding: 14px 14px 0px 14px;
   }
 
-  @media (min-height: 700px) {
-    ul:first-child {
-      margin-top: 80px;
-      padding: 0%;
-    }
-    ul {
-      margin-top: 10px;
-      padding: 0%;
-    }
-  }
+  
 }
