@@ -3,12 +3,12 @@ body {
 }
 
 article,
-section{
+section {
   text-align: center;
   padding-top: 20px;
 }
 
-.text{
+.text {
   color: #f2f2f2;
   text-decoration: none;
   font-size: 17px;
@@ -17,20 +17,19 @@ section{
   justify-self: center;
 }
 
-
 .topnav {
   overflow: hidden;
   display: grid;
   width: 100%;
-  grid-template-columns:repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
-.logo{
+.logo {
   max-height: 100%;
   height: 100%;
 }
 
-.logo img{
+.logo img {
   width: 70%;
 }
 
@@ -52,36 +51,58 @@ section{
   display: none;
 }
 
-.aligner{
+.aligner {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 @media (max-width: 600px) {
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 40px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+    align-self: center;
+  }
+  .change .bar1 {
+    transform: rotate(-47deg) translate(-9px, 6px);
+  }
 
-  .logo{
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .logo {
     max-height: 100%;
     height: 100%;
   }
-  
-  .logo img{
+
+  .logo img {
     width: 50%;
   }
 
-  .topBar{
+  .topBar {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
-  } 
+  }
 
   .topnav a:not(:first-child) {
     display: none;
   }
 
   .topnav a.icon {
-    font-size: 30px;
     display: block;
   }
+
   .topnav {
     display: block;
     background-color: #4caf50;
@@ -92,9 +113,8 @@ section{
   }
   .topnav.responsive a.icon {
     display: block;
-    font-size: 30px;
-    padding: 0%;
   }
+
   .topnav.responsive a {
     display: block;
     text-align: center;
@@ -102,6 +122,7 @@ section{
     padding-left: 0%;
     padding: 0%;
   }
+
 
   ul:first-child {
     margin-top: 60px;
